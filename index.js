@@ -19,7 +19,7 @@ function distanceTravelledInFeet(someValueA,someValueB){
   let feetA,feetB,result;
   feetA=distanceFromHqInFeet(someValueA);
   feetB=distanceFromHqInFeet(someValueB);
-  result= Math.abs(feetA-feetB);
+  result= Math.abs(feetB-feetA);
   return result;
 }
 
