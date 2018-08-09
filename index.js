@@ -10,4 +10,7 @@ function distanceFromHqInBlocks(someValue){
   return blocks;
 }
 
-function
+function distanceFromHqInFeet(someValue){
+  let noBlocks=distanceFromHqInBlocks(someValue);
+  return noBlocks*264;
+}
