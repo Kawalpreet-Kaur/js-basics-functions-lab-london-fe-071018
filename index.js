@@ -25,7 +25,7 @@ function distanceTravelledInFeet(someValueA,someValueB){
 
 function calculatesFarePrice(start, destination){
   let distance, FarePrice;
-  distance=distanceTravelledInFeet(start, destination);
+  distance=distanceTravelledInFeet(start, destination)-400;
   if (distance<=400){
     FarePrice=0;
   }
