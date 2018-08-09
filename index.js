@@ -24,10 +24,10 @@ function distanceTravelledInFeet(someValueA,someValueB){
 }
 
 function calculatesFarePrice(start, destination){
-  let distance, result;
+  let distance, FarePrice;
   distance=distanceTravelledInFeet(start, destination);
   if (distance===0){
-    result=0;
+    FarePrice=0;
   }
-  return result;
+  return FarePrice;
 }
