@@ -20,5 +20,5 @@ function distanceTravelledInFeet(someValueA,someValueB){
   feetA=distanceFromHqInFeet(someValueA);
   feetB=distanceFromHqInFeet(someValueB);
   result= Math.abs(feetA-feetB);
-  
+  return result;
 }
