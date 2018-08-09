@@ -16,8 +16,9 @@ function distanceFromHqInFeet(someValue){
 }
 
 function distanceTravelledInFeet(someValueA,someValueB){
-  let feetA,feetB;
+  let feetA,feetB,result;
   feetA=distanceFromHqInFeet(someValueA);
   feetB=distanceFromHqInFeet(someValueB);
-  return feetA-feetB;
+  result= Math.abs(feetA-feetB);
+  
 }
