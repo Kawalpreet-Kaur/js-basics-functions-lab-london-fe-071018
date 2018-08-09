@@ -22,3 +22,7 @@ function distanceTravelledInFeet(someValueA,someValueB){
   result= Math.abs(feetA-feetB);
   return result;
 }
+
+function calculatesFarePrice(start, destination){
+  
+}
