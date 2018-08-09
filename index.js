@@ -1,4 +1,5 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(someValue){
-  return someValue/264;
+  let blocks;
+   blocks = someValue/264;
 }
