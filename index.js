@@ -14,3 +14,7 @@ function distanceFromHqInFeet(someValue){
   let noBlocks=distanceFromHqInBlocks(someValue);
   return noBlocks*264;
 }
+
+function distanceTravelledInFeet(someValue){
+  
+}
